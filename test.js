@@ -1,3 +1,5 @@
+'use strict';
+
 var stripcc = require('./lib');
 
 var input = 'h\u0000e\u0005l\u0011l\u007fo\u0088\r\n\t ';
