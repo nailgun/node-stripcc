@@ -1,0 +1,27 @@
+{
+  "name": "stripcc",
+  "description": "Strip control-characters from string",
+  "keywords": [
+    "string",
+    "character",
+    "strip"
+  ],
+  "version": "1.0.0",
+  "author": "Dmitry Bashkatov <dbashkatov@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nailgun/node-stripcc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nailgun/node-stripcc/issues"
+  },
+  "main": "./lib/index",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "prepublish": "make clean",
+    "test": "make test"
+  },
+  "readmeFilename": "README.md"
+}
